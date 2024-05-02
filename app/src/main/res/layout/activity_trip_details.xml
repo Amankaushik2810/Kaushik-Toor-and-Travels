@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/destinationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic3"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/destinationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details for $destination"
+        android:textSize="24sp"
+        android:layout_below="@id/destinationImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!-- You can add more TextViews or other UI elements to display additional details -->
+
+    <ScrollView
+        android:id="@+id/scrolla"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:layout_below="@+id/showalarm"
+        android:layout_marginTop="10dp">
+        <include layout="@layout/manali" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationTextView"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/showalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationTextView"
+        android:layout_alignStart="@+id/destinationTextView"
+        android:layout_alignEnd="@+id/destinationTextView"
+
+        android:text="Set Alarm" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/buttom_navigation" />
+</RelativeLayout>

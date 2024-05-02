@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manali - A Paradise in the Himalayas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Choose Manali for Your Next Adventure?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Breathtaking Scenery: Nestled in the Himalayas, Manali offers stunning views of snow-capped mountains and lush green landscapes."
+        android:paddingLeft="16dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Adventure Activities: Manali is a hub for adventure enthusiasts, offering activities like trekking, paragliding, and river rafting."
+        android:paddingLeft="16dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Rich Culture: Explore the local culture with visits to ancient temples, vibrant markets, and traditional festivals."
+        android:paddingLeft="16dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Picturesque Landmarks: Visit iconic landmarks like Hadimba Temple, Solang Valley, and Rohtang Pass."
+        android:paddingLeft="16dp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Add more points as needed -->
+
+</LinearLayout>

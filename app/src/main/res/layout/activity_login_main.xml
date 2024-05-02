@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login_main"
+    android:background="@drawable/manali_image">
+
+    <!-- Other UI elements -->
+    <TextView
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="663dp"
+        android:gravity="center"
+        android:text="Welecome to Kaushik Tour and Travels"
+        android:textSize="20sp" />
+
+</RelativeLayout>

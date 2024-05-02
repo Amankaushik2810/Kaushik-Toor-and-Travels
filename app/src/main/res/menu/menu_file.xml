@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ToolBarExample">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="0"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <!-- Existing menu items -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="2"
+        android:title="Email"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="3"
+        android:title="User"
+        app:showAsAction="always" >
+
+        <!-- Submenu for "User" -->
+        <menu>
+            <item
+                android:id="@+id/submenu_item_1"
+                android:title="First User" />
+            <item
+                android:id="@+id/submenu_item_2"
+                android:title="Second User" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/actionn"
+        android:orderInCategory="4"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+</menu>
